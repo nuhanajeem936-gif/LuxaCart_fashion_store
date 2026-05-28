@@ -1,0 +1,61 @@
+name: fashion_store
+description: LuxaCart Fashion App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # UI
+  flutter_iconly: ^1.0.2
+  smooth_page_indicator: ^1.1.0
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.2.5
+
+  # PDF + PRINT
+  pdf: ^3.10.7
+  printing: ^5.12.0
+
+  # FONTS
+  google_fonts: ^6.2.1
+
+  # FIREBASE
+  firebase_core: ^4.8.0
+  cloud_firestore: ^6.4.0
+  firebase_auth: ^6.5.1
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/luxa_cart_logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  # ✅ ALL IMAGES (LOGIN + SIGNUP + SPLASH)
+  assets:
+    - assets/images/
+
+  # FONTS
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf

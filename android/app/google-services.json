@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "84793129585",
+    "project_id": "luxacart-fashion-store",
+    "storage_bucket": "luxacart-fashion-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84793129585:android:5855d94669a0c009dbf9d0",
+        "android_client_info": {
+          "package_name": "com.example.fashion_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCinnyJkov7ABPeNJWyqZoZE6nl1IgNApg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
